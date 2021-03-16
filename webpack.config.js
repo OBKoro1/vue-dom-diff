@@ -12,7 +12,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: path.resolve(__dirname, 'dist'), // 告诉服务器内容的来源
+    contentBase: path.resolve(__dirname, 'src/template.html'), // 告诉服务器内容的来源
     open: true,
     compress: true,
     hot: true,
